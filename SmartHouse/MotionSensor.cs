@@ -1,32 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartHouse
 {
-    public class MotionSensor: ISensor
+    public class MotionSensor : ISensor
     {
-      public string Name { get;private set; }
+        public string Name { get; } = "Motion Sensor";
+        public int LastVal { get; private set; }
         public event EventHandler<SensorEventArgs> Triggered;
+
+        private readonly SmartHouseSystem _smartSystem;
+
+        public MotionSensor(SmartHouseSystem system)
+        {
+            _smartSystem = system ?? throw new ArgumentNullException(nameof(system));
+        }
+
         public void Check()
         {
             Random rand = new Random();
+            LastVal = rand.Next(0, 2); // 0 или 1
 
-            int minVal = 0;
-            int maxVal = 1;
-            int val = rand.Next(minVal,maxVal);
+            // Всегда логируем значение
+            _smartSystem.UpdateSensorValue(Name, LastVal);
 
-            if (val == 1)
+            // Только если обнаружено движение — отправляем событие и лог
+            if (LastVal == 1)
             {
                 Triggered?.Invoke(this, new SensorEventArgs
                 {
                     SensorName = "[Motion Sensor]",
                     Message = "Motion detected!"
                 });
-            }
 
+                _smartSystem.LogIfUniqueMessage($"[Log {DateTime.Now}] {Name}: {LastVal}");
+            }
         }
     }
 }

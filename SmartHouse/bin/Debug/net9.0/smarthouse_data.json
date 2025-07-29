@@ -1,0 +1,17 @@
+{
+  "SensorValues": {
+    "Temperature Sensor": 81,
+    "Motion Sensor": 0
+  },
+  "LogMessages": [
+    "[Log 29.07.2025 21:18:38] Temperature Sensor: 83\u00B0C",
+    "[Log 29.07.2025 21:18:38] Motion Sensor: 1",
+    "[Log 29.07.2025 21:18:52] Temperature Sensor: 75\u00B0C",
+    "[Log 29.07.2025 21:18:54] Temperature Sensor: 78\u00B0C",
+    "[Log 29.07.2025 21:18:54] Motion Sensor: 1",
+    "[Log 29.07.2025 21:18:55] Temperature Sensor: 75\u00B0C",
+    "[Log 29.07.2025 21:21:01] Temperature Sensor: 79\u00B0C",
+    "[Log 29.07.2025 21:21:02] Temperature Sensor: 76\u00B0C",
+    "[Log 29.07.2025 21:21:03] Temperature Sensor: 81\u00B0C"
+  ]
+}

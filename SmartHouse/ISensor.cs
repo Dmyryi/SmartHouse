@@ -9,6 +9,7 @@ namespace SmartHouse
     public interface ISensor
     {
         string Name { get; }
+        int LastVal { get; }
         event EventHandler<SensorEventArgs> Triggered;
         void Check();
     }

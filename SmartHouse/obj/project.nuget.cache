@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/Obx+uoqTEk=",
+  "dgSpecHash": "7M0Ll4R5ihc=",
   "success": true,
   "projectFilePath": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\muzal\\.nuget\\packages\\system.text.json\\9.0.7\\system.text.json.9.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

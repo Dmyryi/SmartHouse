@@ -1,36 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartHouse
 {
-    class TemperatureSensor:ISensor
+    public class TemperatureSensor : ISensor
     {
-        public string Name {  get; private set; }
+        public string Name { get; } = "Temperature Sensor";
+        public int LastVal { get; private set; }
 
         public event EventHandler<SensorEventArgs> Triggered;
+
+        private readonly SmartHouseSystem _smartSystem;
+
+        public TemperatureSensor(SmartHouseSystem system)
+        {
+            _smartSystem = system ?? throw new ArgumentNullException(nameof(system));
+        }
 
         public void Check()
         {
             Random rand = new Random();
+            LastVal = rand.Next(65, 85);
 
-            int minTemp = 65;
-            int maxTemp = 85;
+            _smartSystem.UpdateSensorValue(Name, LastVal);
 
-          int val = rand.Next(minTemp, maxTemp);
-            if(val > 70)
+            if (LastVal > 70)
             {
                 Triggered?.Invoke(this, new SensorEventArgs
                 {
                     SensorName = "[Temperature Sensor]",
-                    Message = $"Temperature exceeded: {val}°C"
+                    Message = $"Temperature exceeded: {LastVal}°C"
                 });
 
+                _smartSystem.LogIfUniqueMessage($"[Log {DateTime.Now}] {Name}: {LastVal}°C");
             }
         }
-
-     
     }
 }

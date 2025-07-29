@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SmartHouse
 {
-    public interface INotifier
+    public class SmartHouseData
     {
-        
+        public Dictionary<string, int> SensorValues { get; set; }
+        public List<string> LogMessages { get; set; }
 
-        void Notify(object sender, SensorEventArgs args);
     }
 }

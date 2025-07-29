@@ -13,3 +13,6 @@ C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\refint\SmartH
 C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.pdb
 C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.genruntimeconfig.cache
 C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\ref\SmartHouse.dll
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.csproj.AssemblyReference.cache
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.csproj.Up2Date
