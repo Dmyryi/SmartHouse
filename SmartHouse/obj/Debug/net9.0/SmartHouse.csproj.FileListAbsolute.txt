@@ -1,0 +1,15 @@
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\bin\Debug\net9.0\SmartHouse.exe
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\bin\Debug\net9.0\SmartHouse.deps.json
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\bin\Debug\net9.0\SmartHouse.runtimeconfig.json
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\bin\Debug\net9.0\SmartHouse.dll
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\bin\Debug\net9.0\SmartHouse.pdb
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.AssemblyInfoInputs.cache
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.AssemblyInfo.cs
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.csproj.CoreCompileInputs.cache
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.sourcelink.json
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.dll
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\refint\SmartHouse.dll
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.pdb
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\SmartHouse.genruntimeconfig.cache
+C:\Users\muzal\source\repos\SmartHouse\SmartHouse\obj\Debug\net9.0\ref\SmartHouse.dll
