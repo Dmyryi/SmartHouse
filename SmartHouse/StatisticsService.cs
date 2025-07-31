@@ -16,7 +16,7 @@ namespace SmartHouse
             var groupedResult = logs.GroupBy(log =>
             {
                 int start = log.IndexOf("] ") + 2;
-                int end = log.IndexOf("r:");
+                int end = log.LastIndexOf(":");
                 return log.Substring(start, end - start);
             });
 

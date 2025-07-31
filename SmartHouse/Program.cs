@@ -5,16 +5,40 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        var (smartSystem, statistics, analyzer, tempSensor, motionSensor, noiseSensor) = InitializeSmartHouser();
+        ShowMainMenu(smartSystem, statistics, analyzer, tempSensor, motionSensor, noiseSensor);
+
+    }
+
+
+
+
+    private static (SmartHouseSystem, StatisticsService, SmartHouseAnalyzer, ISensor, ISensor,ISensor) InitializeSmartHouser()
+    {
         ConsoleNotifier notifier = new ConsoleNotifier();
         SmartHouseSystem smartSystem = new SmartHouseSystem(notifier);
         SmartHouseAnalyzer smartHouseAnalyzer = new SmartHouseAnalyzer();
         SensorFactory factory = new SensorFactory();
         ISensor tempSensor = factory.CreateSensor("temperature", smartSystem);
         ISensor motionSensor = factory.CreateSensor("motion", smartSystem);
-       
+        ISensor noiseSensor = factory.CreateSensor("noise", smartSystem);
+        if (noiseSensor is NoiseSensor ns)
+        {
+            ns.AddStrategy(new HighNoiseAlertStrategy());
+            ns.AddStrategy(new QuietModeStrategy());
+        }
+
         StatisticsService statistic = new StatisticsService();
+
+
+        return (smartSystem, statistic, smartHouseAnalyzer, tempSensor,motionSensor, noiseSensor);
+    }
+
+    private static void ShowMainMenu(SmartHouseSystem smartSystem, StatisticsService statistic, SmartHouseAnalyzer smartHouseAnalyzer, ISensor tempSensor, ISensor motionSensor, ISensor noiseSensor)
+    {
         smartSystem.RegisterSensor(tempSensor);
         smartSystem.RegisterSensor(motionSensor);
+        smartSystem.RegisterSensor(noiseSensor);
 
         const string filePath = "smarthouse_data.json";
 
@@ -38,6 +62,7 @@ public class Program
                 case "1":
                     tempSensor.Check();
                     motionSensor.Check();
+                    noiseSensor.Check();
                     Console.WriteLine("Sensors checked.");
                     break;
 
@@ -58,8 +83,8 @@ public class Program
                 case "5":
                     int threshold = 75;
                     List<KeyValuePair<string, int>> selectedSensors = smartHouseAnalyzer.GetHotSensors(smartSystem.SensorValues, threshold);
-                    List<string> selectedLogs =  smartHouseAnalyzer.GetLogsContaining(smartSystem.LogMessages, "temperature");
-                    
+                    List<string> selectedLogs = smartHouseAnalyzer.GetLogsContaining(smartSystem.LogMessages, "temperature");
+
                     foreach (var sens in selectedSensors)
                     {
                         Console.WriteLine(sens);

@@ -11,28 +11,28 @@
       "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\highnoisealertstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\highnoisealertstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\quietmodestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\quietmodestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\noisesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\noisesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\sensorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\sensorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\motionsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\motionsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\temperaturesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\temperaturesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\smarthousesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthousesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\smarthouseanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthouseanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\sensoreventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\sensoreventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\smarthousedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthousedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\inoiseanalysisstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\inoiseanalysisstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +41,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\isensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\isensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\sensoreventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\sensoreventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\smarthouseanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthouseanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\smarthousedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthousedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\smarthousesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthousesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|c:\\users\\muzal\\source\\repos\\smarthouse\\smarthouse\\temperaturesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B44D8A-859B-4080-8C3F-5EB7858C7EC3}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\temperaturesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +82,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuietModeStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\QuietModeStrategy.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\QuietModeStrategy.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\QuietModeStrategy.cs",
+              "RelativeToolTip": "SmartHouse\\QuietModeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:20:31.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HighNoiseAlertStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\HighNoiseAlertStrategy.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\HighNoiseAlertStrategy.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\HighNoiseAlertStrategy.cs",
+              "RelativeToolTip": "SmartHouse\\HighNoiseAlertStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:04:55.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INoiseAnalysisStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\INoiseAnalysisStrategy.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\INoiseAnalysisStrategy.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\INoiseAnalysisStrategy.cs",
+              "RelativeToolTip": "SmartHouse\\INoiseAnalysisStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:01:43.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoiseSensor.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\NoiseSensor.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\NoiseSensor.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\NoiseSensor.cs",
+              "RelativeToolTip": "SmartHouse\\NoiseSensor.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA3wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T16:59:04.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SensorFactory.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SensorFactory.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\SensorFactory.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SensorFactory.cs",
+              "RelativeToolTip": "SmartHouse\\SensorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T15:39:49.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StatisticsService.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\StatisticsService.cs",
               "RelativeDocumentMoniker": "SmartHouse\\StatisticsService.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\StatisticsService.cs",
               "RelativeToolTip": "SmartHouse\\StatisticsService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAIAwwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T12:18:33.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "SmartHouseAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SmartHouseAnalyzer.cs",
               "RelativeDocumentMoniker": "SmartHouse\\SmartHouseAnalyzer.cs",
@@ -88,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "SmartHouseData.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SmartHouseData.cs",
               "RelativeDocumentMoniker": "SmartHouse\\SmartHouseData.cs",
@@ -101,13 +186,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "SmartHouseSystem.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SmartHouseSystem.cs",
               "RelativeDocumentMoniker": "SmartHouse\\SmartHouseSystem.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SmartHouseSystem.cs",
               "RelativeToolTip": "SmartHouse\\SmartHouseSystem.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAADwvw0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T16:20:25.56Z",
               "EditorCaption": ""
@@ -122,24 +207,12 @@
               "RelativeToolTip": "SmartHouse\\ConsoleNotifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T10:55:16.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MotionSensor.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\MotionSensor.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\MotionSensor.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\MotionSensor.cs",
-              "RelativeToolTip": "SmartHouse\\MotionSensor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T10:21:49.918Z",
+              "WhenOpened": "2025-07-29T10:55:16.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SensorEventArgs.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\SensorEventArgs.cs",
               "RelativeDocumentMoniker": "SmartHouse\\SensorEventArgs.cs",
@@ -152,13 +225,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "TemperatureSensor.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\TemperatureSensor.cs",
               "RelativeDocumentMoniker": "SmartHouse\\TemperatureSensor.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\TemperatureSensor.cs",
               "RelativeToolTip": "SmartHouse\\TemperatureSensor.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T10:19:59.369Z",
               "EditorCaption": ""
@@ -173,7 +246,8 @@
               "RelativeToolTip": "SmartHouse\\ISensor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T10:19:39.794Z"
+              "WhenOpened": "2025-07-29T10:19:39.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -183,9 +257,28 @@
               "RelativeDocumentMoniker": "SmartHouse\\Program.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\Program.cs",
               "RelativeToolTip": "SmartHouse\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T10:09:45.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MotionSensor.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\MotionSensor.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\MotionSensor.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\SmartHouse\\SmartHouse\\MotionSensor.cs",
+              "RelativeToolTip": "SmartHouse\\MotionSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:21:49.918Z",
               "EditorCaption": ""
             }
           ]

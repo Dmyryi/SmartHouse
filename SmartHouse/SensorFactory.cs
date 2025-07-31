@@ -16,8 +16,10 @@ namespace SmartHouse
                     return new TemperatureSensor(system);
                 case "motion":
                     return new MotionSensor(system);
+                case "noise":
+                    return new NoiseSensor(system);
                 default:
-                    throw new ArgumentException($"Sensor type '{type}' is not supported.");
+                    throw new NotSupportedException($"Sensor type '{type}' is not supported.");
             }
         }
     }

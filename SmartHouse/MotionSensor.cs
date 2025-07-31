@@ -18,12 +18,9 @@ namespace SmartHouse
         public void Check()
         {
             Random rand = new Random();
-            LastVal = rand.Next(0, 2); // 0 или 1
-
-            // Всегда логируем значение
+            LastVal = rand.Next(0, 2);
             _smartSystem.UpdateSensorValue(Name, LastVal);
 
-            // Только если обнаружено движение — отправляем событие и лог
             if (LastVal == 1)
             {
                 Triggered?.Invoke(this, new SensorEventArgs
