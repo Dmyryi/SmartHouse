@@ -5,12 +5,14 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var notifier = new ConsoleNotifier();
-        var smartSystem = new SmartHouseSystem(notifier);
-
-        var tempSensor = new TemperatureSensor(smartSystem);
-        var motionSensor = new MotionSensor(smartSystem);
-
+        ConsoleNotifier notifier = new ConsoleNotifier();
+        SmartHouseSystem smartSystem = new SmartHouseSystem(notifier);
+        SmartHouseAnalyzer smartHouseAnalyzer = new SmartHouseAnalyzer();
+        SensorFactory factory = new SensorFactory();
+        ISensor tempSensor = factory.CreateSensor("temperature", smartSystem);
+        ISensor motionSensor = factory.CreateSensor("motion", smartSystem);
+       
+        StatisticsService statistic = new StatisticsService();
         smartSystem.RegisterSensor(tempSensor);
         smartSystem.RegisterSensor(motionSensor);
 
@@ -23,6 +25,8 @@ public class Program
             Console.WriteLine("2. Show current status");
             Console.WriteLine("3. Save system state");
             Console.WriteLine("4. Load system state");
+            Console.WriteLine("5. Analyze data (hot sensors and logs)");
+            Console.WriteLine("6. Logs by themes");
             Console.WriteLine("0. Exit");
             Console.Write("Choose an option: ");
 
@@ -49,6 +53,50 @@ public class Program
                 case "4":
                     smartSystem.LoadState(filePath);
                     Console.WriteLine("✅ State loaded.");
+                    break;
+
+                case "5":
+                    int threshold = 75;
+                    List<KeyValuePair<string, int>> selectedSensors = smartHouseAnalyzer.GetHotSensors(smartSystem.SensorValues, threshold);
+                    List<string> selectedLogs =  smartHouseAnalyzer.GetLogsContaining(smartSystem.LogMessages, "temperature");
+                    
+                    foreach (var sens in selectedSensors)
+                    {
+                        Console.WriteLine(sens);
+                    }
+                    foreach (var log in selectedLogs)
+                    {
+                        Console.WriteLine(log);
+                    }
+                    break;
+                case "6":
+                    Console.WriteLine("=== Sensor Logs by Type ===");
+                    var keyValue = statistic.GetLogsGroupedbySensor(smartSystem.LogMessages);
+
+                    foreach (var pair in keyValue)
+                    {
+                        Console.WriteLine($"📦 Sensor: {pair.Key}");
+                        foreach (var log in pair.Value)
+                        {
+                            Console.WriteLine($"   • {log}");
+                        }
+                        Console.WriteLine(new string('-', 40));
+                    }
+
+                    Console.WriteLine("============= Ordered Sensors ===========");
+                    var orderedSensors = statistic.GetOrderedSensors(smartSystem.SensorValues);
+                    foreach (var sensor in orderedSensors)
+                    {
+                        Console.WriteLine($"{sensor.Key}: {sensor.Value}°C");
+                    }
+                    Console.WriteLine(new string('-', 40));
+
+                    double avg = statistic.GetAverageSensorValue(smartSystem.SensorValues.Values);
+                    Console.WriteLine($"📈 Average sensor value: {avg}");
+
+                    bool critical = statistic.HasCriticalTemperature(smartSystem.LogMessages);
+                    Console.WriteLine($"🔥 Critical temperature detected: {(critical ? "YES" : "NO")}");
+
                     break;
 
                 case "0":
